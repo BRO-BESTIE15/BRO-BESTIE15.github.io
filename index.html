@@ -3,36 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <title>Bro Bestie</title>
+
+  <!-- Makes the site responsive on mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      background: #0f0f0f;
-      color: #ffffff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding-top: 20vh;
+      background: #0f0f0f;              /* Dark background */
+      color: #ffffff;                   /* Default text color */
+      font-family: Arial, sans-serif;   /* Clean system font */
+      text-align: center;               /* Center all text */
+      padding-top: 18vh;                /* Vertical spacing from top */
     }
+
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.5rem;                /* Big main heading */
     }
-    p {
+
+    .tagline {
+      color: #aaaaaa;
+      margin-top: 10px;
+    }
+
+    .intro {
+      max-width: 600px;
+      margin: 20px auto;
       color: #bbbbbb;
+      font-size: 1rem;
     }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    a {
+      display: block;                   /* Each link on new line */
+      margin: 12px;
+      font-size: 1.1rem;
+      text-decoration: none;            /* Remove underline */
+    }
+
+    .github {
+      color: #4da6ff;
+    }
+
+    .blogger {
+      color: #ff944d;
+    }
+
     footer {
-      margin-top: 40px;
+      margin-top: 45px;
       font-size: 0.9rem;
       color: #777;
     }
   </style>
 </head>
+
 <body>
 
+  <!-- Main Identity -->
   <h1>Yo 👋 I’m Bro Bestie</h1>
-  <p>This site is powered by GitHub Pages.</p>
 
+  <p class="tagline">
+    Learning code • Writing thoughts • Exploring ideas
+  </p>
+
+  <p class="intro">
+    I’m someone who’s learning coding step by step, sharing thoughts through blogs,
+    and experimenting with ideas whenever curiosity hits.
+  </p>
+
+  <!-- GitHub Section -->
+  <div class="section">
+
+    <a class="github"
+       href="https://github.com/BRO-BESTIE15"
+       target="_blank">
+      🧑‍💻 GitHub Profile
+    </a>
+
+    <a class="github"
+       href="https://github.com/BRO-BESTIE15?tab=repositories"
+       target="_blank">
+      📦 My GitHub Repositories
+    </a>
+
+  </div>
+
+  <!-- Blogger Label -->
+  <p style="margin-top:35px; color:#999; font-size:0.95rem;">
+    ✍️ Follow me on Blogger
+  </p>
+
+  <!-- Blogger Section -->
+  <div class="section">
+
+    <a class="blogger"
+       href="https://www.blogger.com/profile/15767196615412832139"
+       target="_blank">
+      🧾 Blogger Profile
+    </a>
+
+    <a class="blogger"
+       href="https://brobestieblog.blogspot.com/"
+       target="_blank">
+      🧠 I’m Sure You Don’t Know
+    </a>
+
+    <a class="blogger"
+       href="https://brobestiediary.blogspot.com/"
+       target="_blank">
+      📓 IRL Diary
+    </a>
+
+  </div>
+
+  <!-- Footer -->
   <footer>
-    Open Source • MIT Licensed
-  </footer>
-
-</body>
-</html>
+    Open Source • MIT
